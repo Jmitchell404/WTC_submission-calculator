@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "uWG83lM32TIitZUYxAz+1qeRBlTZazkVj/QKgTcQW9EnpJF+6zKxXMmtlXgYKg01t5z7BnXsYyZSzSb+WgoeOw==",
+  "success": true,
+  "projectFilePath": "/home/josh/QA_Exercise/Question1/submission-calculator/Calculators/Calculators.csproj",
+  "expectedPackageFiles": [
+    "/home/josh/.nuget/packages/fody/6.0.5/fody.6.0.5.nupkg.sha512",
+    "/home/josh/.nuget/packages/fsharp.core/6.0.6/fsharp.core.6.0.6.nupkg.sha512",
+    "/home/josh/.nuget/packages/methodboundaryaspect.fody/2.0.146/methodboundaryaspect.fody.2.0.146.nupkg.sha512",
+    "/home/josh/.nuget/packages/wethinkcode.qaminimal/0.3.0/wethinkcode.qaminimal.0.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

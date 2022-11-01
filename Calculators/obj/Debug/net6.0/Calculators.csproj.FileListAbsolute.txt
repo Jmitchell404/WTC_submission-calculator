@@ -1,0 +1,13 @@
+/home/josh/QA_Exercise/Question1/submission-calculator/Calculators/bin/Debug/net6.0/Calculators.deps.json
+/home/josh/QA_Exercise/Question1/submission-calculator/Calculators/bin/Debug/net6.0/Calculators.dll
+/home/josh/QA_Exercise/Question1/submission-calculator/Calculators/bin/Debug/net6.0/ref/Calculators.dll
+/home/josh/QA_Exercise/Question1/submission-calculator/Calculators/bin/Debug/net6.0/Calculators.pdb
+/home/josh/QA_Exercise/Question1/submission-calculator/Calculators/obj/Debug/net6.0/Calculators.csproj.AssemblyReference.cache
+/home/josh/QA_Exercise/Question1/submission-calculator/Calculators/obj/Debug/net6.0/Calculators.GeneratedMSBuildEditorConfig.editorconfig
+/home/josh/QA_Exercise/Question1/submission-calculator/Calculators/obj/Debug/net6.0/Calculators.AssemblyInfoInputs.cache
+/home/josh/QA_Exercise/Question1/submission-calculator/Calculators/obj/Debug/net6.0/Calculators.AssemblyInfo.cs
+/home/josh/QA_Exercise/Question1/submission-calculator/Calculators/obj/Debug/net6.0/Calculators.csproj.CoreCompileInputs.cache
+/home/josh/QA_Exercise/Question1/submission-calculator/Calculators/obj/Debug/net6.0/Calculators.csproj.Fody.CopyLocal.cache
+/home/josh/QA_Exercise/Question1/submission-calculator/Calculators/obj/Debug/net6.0/Calculators.dll
+/home/josh/QA_Exercise/Question1/submission-calculator/Calculators/obj/Debug/net6.0/ref/Calculators.dll
+/home/josh/QA_Exercise/Question1/submission-calculator/Calculators/obj/Debug/net6.0/Calculators.pdb

@@ -1,0 +1,273 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Fody/6.0.5": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
+      "FSharp.Core/6.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/FSharp.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/FSharp.Core.dll": {}
+        },
+        "resource": {
+          "lib/netstandard2.1/cs/FSharp.Core.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.1/de/FSharp.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.1/es/FSharp.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.1/fr/FSharp.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.1/it/FSharp.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.1/ja/FSharp.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.1/ko/FSharp.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.1/pl/FSharp.Core.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.1/pt-BR/FSharp.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.1/ru/FSharp.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.1/tr/FSharp.Core.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.1/zh-Hans/FSharp.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.1/zh-Hant/FSharp.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
+      "MethodBoundaryAspect.Fody/2.0.146": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.0.5"
+        },
+        "compile": {
+          "lib/netstandard2.0/MethodBoundaryAspect.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MethodBoundaryAspect.dll": {}
+        },
+        "build": {
+          "build/MethodBoundaryAspect.Fody.props": {}
+        }
+      },
+      "WeThinkCode.QaMinimal/0.3.0": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "6.0.6"
+        },
+        "compile": {
+          "lib/net6.0/Minimal.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Minimal.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Fody/6.0.5": {
+      "sha512": "xfz4NwIIPs2xtfvpPlXz49cHYPeWBl/bnvlpW6OSpxKFAujAm7vLQ8Ma7aX3GYVjc/czn5+58QNUnDyb4gxiKA==",
+      "type": "package",
+      "path": "fody/6.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Fody.targets",
+        "fody.6.0.5.nupkg.sha512",
+        "fody.nuspec",
+        "netclassictask/Fody.dll",
+        "netclassictask/FodyCommon.dll",
+        "netclassictask/FodyHelpers.dll",
+        "netclassictask/FodyIsolated.dll",
+        "netclassictask/Mono.Cecil.Pdb.dll",
+        "netclassictask/Mono.Cecil.Pdb.pdb",
+        "netclassictask/Mono.Cecil.Rocks.dll",
+        "netclassictask/Mono.Cecil.Rocks.pdb",
+        "netclassictask/Mono.Cecil.dll",
+        "netclassictask/Mono.Cecil.pdb",
+        "netstandardtask/Fody.dll",
+        "netstandardtask/FodyCommon.dll",
+        "netstandardtask/FodyHelpers.dll",
+        "netstandardtask/FodyIsolated.dll",
+        "netstandardtask/Mono.Cecil.Pdb.dll",
+        "netstandardtask/Mono.Cecil.Pdb.pdb",
+        "netstandardtask/Mono.Cecil.Rocks.dll",
+        "netstandardtask/Mono.Cecil.Rocks.pdb",
+        "netstandardtask/Mono.Cecil.dll",
+        "netstandardtask/Mono.Cecil.pdb"
+      ]
+    },
+    "FSharp.Core/6.0.6": {
+      "sha512": "oSbTFqPtsp+EGkWAHwYIYYHyXLJRnbzVwcmM06kmXNLdWsp3P6XZViPSJJ2qUQS8feNK+nyPA0qtpNZXANGB7w==",
+      "type": "package",
+      "path": "fsharp.core/6.0.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "contentFiles/any/netstandard2.0/FSharp.Core.xml",
+        "contentFiles/any/netstandard2.1/FSharp.Core.xml",
+        "fsharp.core.6.0.6.nupkg.sha512",
+        "fsharp.core.nuspec",
+        "lib/netstandard2.0/FSharp.Core.dll",
+        "lib/netstandard2.0/FSharp.Core.xml",
+        "lib/netstandard2.0/cs/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/de/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/es/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/fr/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/it/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ja/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ko/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/pl/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/pt-BR/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ru/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/tr/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/zh-Hans/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/zh-Hant/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/FSharp.Core.dll",
+        "lib/netstandard2.1/FSharp.Core.xml",
+        "lib/netstandard2.1/cs/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/de/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/es/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/fr/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/it/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/ja/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/ko/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/pl/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/pt-BR/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/ru/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/tr/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/zh-Hans/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/zh-Hant/FSharp.Core.resources.dll"
+      ]
+    },
+    "MethodBoundaryAspect.Fody/2.0.146": {
+      "sha512": "I2AKdPmcrZvV2gYPMuWXopJEnb/rT0mH89AlvJxzEASkxV9OHs0XlvcTjEJg2xlivm8GbPYkJeOqasUZa8BAVw==",
+      "type": "package",
+      "path": "methodboundaryaspect.fody/2.0.146",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MethodBoundaryAspect.Fody.props",
+        "lib/net462/MethodBoundaryAspect.dll",
+        "lib/netstandard2.0/MethodBoundaryAspect.dll",
+        "methodboundaryaspect.fody.2.0.146.nupkg.sha512",
+        "methodboundaryaspect.fody.nuspec",
+        "weaver/MethodBoundaryAspect.Fody.dll"
+      ]
+    },
+    "WeThinkCode.QaMinimal/0.3.0": {
+      "sha512": "VfTXqULmW6SMqdSJaJRlAYACXmYfQS+02yNQ5n7VH90a2Bvny0RMleZjwrrukMaRDmq5l1hJm9yNz/Sj4GDt5w==",
+      "type": "package",
+      "path": "wethinkcode.qaminimal/0.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/Minimal.dll",
+        "wethinkcode.qaminimal.0.3.0.nupkg.sha512",
+        "wethinkcode.qaminimal.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "MethodBoundaryAspect.Fody >= 2.0.146",
+      "WeThinkCode.QaMinimal >= 0.3.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/josh/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/josh/QA_Exercise/Question1/submission-calculator/Calculators/Calculators.csproj",
+      "projectName": "Calculators",
+      "projectPath": "/home/josh/QA_Exercise/Question1/submission-calculator/Calculators/Calculators.csproj",
+      "packagesPath": "/home/josh/.nuget/packages/",
+      "outputPath": "/home/josh/QA_Exercise/Question1/submission-calculator/Calculators/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/josh/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "MethodBoundaryAspect.Fody": {
+            "target": "Package",
+            "version": "[2.0.146, )"
+          },
+          "WeThinkCode.QaMinimal": {
+            "target": "Package",
+            "version": "[0.3.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.110/sdk/6.0.110/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
